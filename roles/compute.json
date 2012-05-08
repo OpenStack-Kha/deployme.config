@@ -5,23 +5,23 @@
                                       "enabled_services": "n-cpu,n-net",
                                       "libvirt_type": "qemu",
                                       "keystone": {
-                                                    "auth_host": "10.9.13.101",
-                                                    "service_host": "10.9.13.101"
+                                                    "auth_host": "172.21.21.37",
+                                                    "service_host": "172.21.21.37"
                                                   },
                                       "glance": {
-                                                  "host": "10.9.13.102"
+                                                  "host": "172.21.21.38"
                                                 },
                                       "nova": {
-                                                "api_host": "10.9.13.102",
-                                                "obj_host": "10.9.13.101",
-                                                "vol_host": "10.9.13.101"
+                                                "api_host": "172.21.21.38",
+                                                "obj_host": "172.21.21.37",
+                                                "vol_host": "172.21.21.37"
                                               },
                                       "rabbit": { 
-                                                 "host": "10.9.13.101", 
+                                                 "host": "172.21.21.37", 
                                                  "password": "guest"
                                                 },
                                       "mysql": {
-                                                 "host": "10.9.13.101",
+                                                 "host": "172.21.21.37",
                                                  "user": "root",
                                                  "password": "nova"
                                                }
