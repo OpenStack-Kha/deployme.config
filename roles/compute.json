@@ -3,26 +3,26 @@
   "default_attributes": {},
   "override_attributes": {"stack":  { 
                                       "enabled_services": "n-cpu,n-net",
-                                      "libvirt_type": "qemu",
+                                      "libvirt_type": "kvm",
                                       "keystone": {
-                                                    "auth_host": "172.21.21.37",
-                                                    "service_host": "172.21.21.37"
+                                                    "auth_host": "172.21.21.31",
+                                                    "service_host": "172.21.21.31"
                                                   },
                                       "glance": {
-                                                  "host": "172.21.21.38"
+                                                  "host": "172.21.21.22"
                                                 },
                                       "nova": {
-                                                "api_host": "172.21.21.38",
-                                                "obj_host": "172.21.21.37",
-                                                "vol_host": "172.21.21.37"
+                                                "api_host": "172.21.21.22",
+                                                "obj_host": "172.21.21.31",
+                                                "vol_host": "172.21.21.31"
                                               },
                                       "rabbit": { 
-                                                 "addresses": "172.21.21.37:5672", 
-                                                 "password": "guest",
+                                                 "addresses": "172.21.21.22:5672,172.21.21.23:5672,172.21.21.24:5672,172.21.21.25:5672",
+                                                 "password": "nova",
                                                  "max_retries": "7"
                                                 },
                                       "mysql": {
-                                                 "host": "172.21.21.37",
+                                                 "host": "172.21.21.100",
                                                  "user": "root",
                                                  "password": "nova"
                                                }
