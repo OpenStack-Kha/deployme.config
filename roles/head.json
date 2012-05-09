@@ -24,8 +24,8 @@
                                                },
                                       "repos": {
                                                  "nova": "git://172.21.21.31/nova",
-                                                 "glance": "git clone git://172.21.21.31/glance",
-                                                 "keystone": "git clone git://172.21.21.31/keystone"
+                                                 "glance": "git://172.21.21.31/glance",
+                                                 "keystone": "git://172.21.21.31/keystone"
                                                }
                                     }
                          },
