@@ -17,8 +17,9 @@
                                                 "vol_host": "172.21.21.37"
                                               },
                                       "rabbit": { 
-                                                 "host": "172.21.21.37", 
-                                                 "password": "guest"
+                                                 "addresses": "172.21.21.37:5672", 
+                                                 "password": "guest",
+                                                 "max_retries": "7"
                                                 },
                                       "mysql": {
                                                  "host": "172.21.21.37",
