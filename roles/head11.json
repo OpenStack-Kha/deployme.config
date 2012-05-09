@@ -13,7 +13,7 @@
                                               },
                                       "rabbit": { 
                                                  "addresses": "172.21.21.22:5672", 
-                                                 "password": "guest",
+                                                 "password": "nova",
                                                  "max_retries": "7"
                                                 },
                                       "mysql": {
