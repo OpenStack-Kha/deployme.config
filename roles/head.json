@@ -12,8 +12,9 @@
                                                 "vol_host": "10.9.13.101"
                                               },
                                       "rabbit": { 
-                                                 "host": "10.9.13.101", 
-                                                 "password": "guest"
+                                                 "addresses": "10.9.13.101:5672", 
+                                                 "password": "guest",
+                                                 "max_retries": "7"
                                                 },
                                       "mysql": {
                                                  "host": "10.9.13.101",
