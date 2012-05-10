@@ -4,31 +4,31 @@
   "override_attributes": {"stack":  { 
                                       "enabled_services": "n-api,n-sch,g-api,g-reg", 
                                       "keystone": {
-                                                    "auth_host": "172.21.21.31",
-                                                    "service_host": "172.21.21.31"
+                                                    "auth_host": "172.21.22.41",
+                                                    "service_host": "172.21.22.41"
                                                   },
                                       "glance": {
                                                   "host": "127.0.0.1"
                                                 },
                                       "nova": {
                                                 "api_host": "127.0.0.1",
-                                                "obj_host": "172.21.21.31",
-                                                "vol_host": "172.21.21.31"
+                                                "obj_host": "172.21.22.41",
+                                                "vol_host": "172.21.22.41"
                                               },
                                       "rabbit": { 
-                                                 "addresses": "172.21.21.22:5672,172.21.21.23:5672,172.21.21.24:5672,172.21.21.25:5672",
+                                                 "addresses": "172.21.22.42:5672,172.21.22.43:5672",
                                                  "password": "nova",
                                                  "max_retries": "7"
                                                 },
                                       "mysql": {
-                                                 "host": "172.21.21.100",
+                                                 "host": "172.21.22.42",
                                                  "user": "root",
                                                  "password": "nova"
                                                },
                                       "repos": {
-                                                 "nova": "git://172.21.21.31/nova",
-                                                 "glance": "git://172.21.21.31/glance",
-                                                 "keystone": "git://172.21.21.31/keystone"
+                                                 "nova": "git://172.21.22.41/nova",
+                                                 "glance": "git://172.21.22.41/glance",
+                                                 "keystone": "git://172.21.22.41/keystone"
                                                }
                                     }
                          },
