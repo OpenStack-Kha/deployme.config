@@ -1,8 +1,9 @@
 {
-  "name": "cloud_controller",
+  "name": "slave",
   "default_attributes": {},
   "override_attributes": {"stack":  { 
-                                      "enabled_services": "n-api,n-sch,g-api,g-reg", 
+                                      "enabled_services": "n-api,n-sch,n-cpu,n-net,g-api,g-reg", 
+                                      "libvirt_type": "kvm",
                                       "keystone": {
                                                     "auth_host": "head",
                                                     "service_host": "head"
@@ -31,7 +32,7 @@
                          },
   "chef_type": "role",
   "json_class": "Chef::Role",
-  "description": "Kharkov Deployment Cloud Controller Node",
+  "description": "Kharkov Deployment Slave Node",
   "run_list" : [ 
                  "recipe[wheel::stack]"
                ]
