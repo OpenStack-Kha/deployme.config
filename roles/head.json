@@ -23,6 +23,9 @@
                                                  "password": "nova"
                                                },
                                       "repos": {
+                                                 "nova": "git://github.com/OpenStack-Kha/nova",
+                                                 "glance": "git://github.com/OpenStack-Kha/glance",
+                                                 "keystone": "git://github.com/OpenStack-Kha/keystone"
                                                }
                                     }
                          },
