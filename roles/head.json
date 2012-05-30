@@ -3,7 +3,7 @@
   "default_attributes": {},
   "override_attributes": {"stack":  { 
                                       "service_host": "172.21.22.41",
-                                      "enabled_services": "key,n-crt,n-obj,n-vol,n-novnc,n-xvnc,n-cauth,horizon",
+                                      "enabled_services": "key,n-crt,n-obj,n-vol,n-novnc,n-xvnc,n-cauth,horizon,swift",
                                       "glance": {
                                                   "host": "172.21.22.42"
                                                 },
